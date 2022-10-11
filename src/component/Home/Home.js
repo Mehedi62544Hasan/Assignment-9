@@ -11,7 +11,7 @@ const Home = () => {
              <div>
                 <HeaderImg></HeaderImg>
              </div>
-            <div>
+            <div className='grid md:grid-cols-2 lg:grid-cols-4 m-8 mb-96'>
                  {
                     qusns.map(qusn => <Card
                         key={qusn.id}

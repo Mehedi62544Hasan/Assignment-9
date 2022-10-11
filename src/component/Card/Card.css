@@ -1,0 +1,9 @@
+.btn-quiz{
+    background-color: fuchsia;
+    width: 100%;
+    padding: 8px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
