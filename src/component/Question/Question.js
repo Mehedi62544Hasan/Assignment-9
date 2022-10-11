@@ -22,7 +22,7 @@ const Question = ({questions}) => {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
-                text: 'Your Answer is Wrong!!',
+                text: 'Wrong Answer!!',
                })
         }
     }
