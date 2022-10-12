@@ -9,7 +9,6 @@ const Quiz = () => {
     // console.log(quiz.data)
     return (
         <div>
-            <div>
                 <div className='flex justify-around items-center question-container bg-fuchsia-200 lg:mx-52 my-14'>
                     <p className='text-5xl font-bold text-fuchsia-500'>{quiz.data.name}</p>
                     <img className='w-20 rounded-full' src={quiz.data.logo}></img>
@@ -20,10 +19,6 @@ const Quiz = () => {
                     questions={question}
                 ></Question>)
              }
-            </div>
-            <div>
-                result
-            </div>
         </div>
     );
 };
