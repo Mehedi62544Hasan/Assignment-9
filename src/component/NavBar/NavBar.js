@@ -132,6 +132,16 @@ const NavBar = () => {
                       </li>
                       <li>
                         <NavLink
+                          to="/blog"
+                          aria-label="Our product"
+                          title="Our product"
+                          className="font-bold tracking-wide transition-colors duration-200 hover:text-red-600"
+                        >
+                          Blog
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
                           to="/about"
                           aria-label="About us"
                           title="About us"

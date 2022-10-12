@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <p>this is about page</p>
+            <p className='question-container text-fuchsia-500 my-36 mx-16 text-9xl'>THANK YOU</p>
         </div>
     );
 };
