@@ -23,7 +23,7 @@ const Card = ({qusn}) => {
             </p>
             
             <Link to={`/quiz/${id}`}>
-                 <button className='btn-quiz flex items-center justify-center'>Go Quiz <span><ArrowRightIcon className="h-5 w-5 ml-4 text-bold "/></span></button>
+                 <button className='btn-quiz flex items-center justify-center hover:bg-blue-500'>Go Quiz <span><ArrowRightIcon className="h-5 w-5 ml-4 text-bold "/></span></button>
             </Link>
           </div>
         </div>
