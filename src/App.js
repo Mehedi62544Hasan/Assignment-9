@@ -3,6 +3,7 @@ import './App.css';
 import About from './component/About/About';
 import Blog from './component/Blog/Blog';
 import Chart from './component/Chart/Chart';
+import ErrorPage from './component/ErrorPage/ErrorPage';
 import Home from './component/Home/Home';
 import Quiz from './component/Quiz/Quiz';
 import Main from './layout/Main';
@@ -12,6 +13,7 @@ function App() {
     {
       path: '/',
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children:[
         {
           path: '/',
