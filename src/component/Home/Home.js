@@ -1,8 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Card from '../Card/Card';
-import Footer from '../Footer/Footer';
-import HeaderImg from '../HeaderImg/HeaderImg';
+ import HeaderImg from '../HeaderImg/HeaderImg';
 
 const Home = () => {
     const quiz = useLoaderData();
